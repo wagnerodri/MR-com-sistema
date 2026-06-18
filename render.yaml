@@ -9,6 +9,6 @@ services:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: MAINTENANCE_MODE
-        value: "true"
+        value: "false"
       - key: JAVA_TOOL_OPTIONS
         value: -XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0

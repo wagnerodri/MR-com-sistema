@@ -1,3 +1,4 @@
+# Build: 2026-06-18
 FROM eclipse-temurin:17-jdk-jammy AS build
 WORKDIR /app
 COPY . .
